@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+.default-page .header .parallax{
+	height: 170px;
+    width: 100%;
+	background-color: white;
+	color: black;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	display: block;
+}
+
+img {
+	width: 100vw;
+	height: 80%;
+	object-fit: cover;
+}
+
+.container {
+	background-color: #032426;
+	color: white;
+}
+.contact {
+	display: flex;
+	padding-bottom: 50px;
+	text-align: justify;
+	font-family: Julius Sans One;
+	font-size: 30px;
+	margin: 40px 60px 60px;
+}
+
+.info {
+	margin: 0 50px 50px 50px;
+}
+
+.info p {
+	margin-bottom: 20px;
+}
+
+.info img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.detail {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+
+.info-2 img {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+
+.info-2 {
+	display:flex;
+}
+
+.info-2 p {
+	margin-left: 10px;
+	font-size: 35px;
+}
+
+.contact-form {
+	background-color: #305659;
+	padding: 50px 60px 15px 60px;
+	margin: 0 65px 0 65px;
+	text-align: center;
+	color: white;
+}
+
+form input {
+	width: 100%;
+	margin: 25px 0 25px 0;
+	padding: 15px;
+	margin-bottom: 0.8rem;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+	font-size: 0.9rem;
+	box-sizing: border-box;
+	
+}
+
+form input::placeholder{
+	color: white;
+	opacity: 0.7;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	transform: translateY(0);
+}
+
+form button {
+	margin: 5px 0 20px 0;
+	padding: 0.5rem 1rem;
+	background-color: #D9D9D9;
+	color: black;
+	border: none;
+	font-size: 20px;
+}
+

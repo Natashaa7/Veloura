@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.default-page .header .parallax{
+	height: 170px;
+    width: 100%;
+	background-color: white;
+	color: black;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	display: block;
+}
+
+.jinfo {
+	background-color: #032426;
+	padding: 100px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  margin: 50px 65px 30px 65px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #305659;
+  font-weight: bold;
+  color: white;
+}
+
+.login {
+	color: white;
+	padding: 2rem; /* Adds space from the edge */
+  	text-align: right; /* Aligns the text itself to the right */
+  	padding-right: 3rem;
+}
+
+.form-box {
+	background-color: #305659;
+	padding: 30px 60px 25px 60px;
+	margin: 50px 65px 0 65px;
+	text-align: center;
+	color: white;
+	width: 80%;
+}
+
+h3 {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+form {
+	margin: 0 50px 0 50px;
+	width: 50%;
+}
+
+form input {
+	width: 100%;
+	margin: 25px 0 25px 0;
+	padding: 15px;
+	margin-bottom: 0.8rem;
+	border: 1px solid white;
+	background: white;
+	color: black;
+	font-size: 0.9rem;
+	box-sizing: border-box;
+	
+}
+
+form input::placeholder{
+	color: black;
+	opacity: 0.7;
+	justify-content: top;
+}
+
+form button {
+	margin: 5px 0 20px 0;
+	padding: 0.5rem 1rem;
+	background-color: white;
+	color: black;
+	border: none;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+table button {
+	background-color: white;
+	border: none;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+	
+}
+
+img:hover {
+	cursor: pointer;
+	background-color: #EFFCF8;
+	border-radius: 5px;
+	
+}
