@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+.main-body {
+	padding: 20px;
+}
+
+.home-page .header .parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+    width: 100%;
+	background-image: url("../resources/images/system/17.jpg");
+	display: block;
+}
+
+.home {
+	position: absolute;
+	max-width: 40%;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+    top: 250px;
+    left: 27%;
+    transform: translate(75%, 580%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+button {
+	width: 250px;
+	height: 60px;
+	color: black;
+	background-color: white;
+	font-size: 16px;
+}
+
+img {
+	width: 100vw;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+}
+
+.highj {
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.highj img {
+	width: 33.33vw;
+	height: 65vh;
+	object-fit: cover;
+}
+
+h1 {
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.jewellery {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 35px;
+}
+
+.category {
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	margin-top: 50px;
+
+}
+
+.category img {
+	width: 33.33vw;
+	height: 65vh;
+	object-fit: cover;
+	border: 3px solid transparent; /* set initial border */
+	transition: border-color 0.3s ease; /* smooth transition */
+}
+
+.jimage img {
+	width: 25vw;
+	height: 65vh;
+	object-fit: cover;
+
+}
+
+.jimage a{
+	color: black; /* initial font color*/
+	transition: color 0.3s ease;
+}
+
+.jimage a:hover{
+	color: rgb(187,161,79); /* change to rgb on hover */
+}	
+	
+
+.category img:hover {
+	border-color: #2f2f2f;
+}
+
+.overlay-text {
+	position: absolute;
+	bottom: 5px; /* or top: 20px, left/right as needed */
+	margin-left: 110px;
+	margin-right: 20px;
+	color: black;
+	padding-bottom: 20px;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.last img {
+	width: 100vw;
+	height: 80vh;
+	object-fit: cover;
+	margin-top: 50px;
+}
+
+.service {
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+	position: relative;
+	margin-top: 50px;
+	background-color: #F8F8F7;
+}
+
+.service img {
+	width: 25vw;
+	height: 65vh;
+	object-fit: contain;
+}
+
+.service-text {
+	position: absolute;
+	bottom: 5px; /* or top: 20px, left/right as needed */
+	margin-left: 110px;
+	margin-right: 20px;
+	color: black;
+	padding-bottom: 20px;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+	color: green;
+	padding: 15px;
+	border-radius: 10px;
+	z-index: 1000;
+	font-size: 18px;
+}
+
+.popup.show {
+    display: block;
+}
+
+

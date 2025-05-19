@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+
+.foot {
+	color: black;
+	padding: 20px 20px 20px 50px;
+	display: flex;
+    background-color: white;
+}
+
+.foot p {
+	margin-bottom: 10px;
+}
+
+.foot ul {
+	list-style-type: none; /* Remove bullets */
+}
+
+.info {
+	color: inherit; /* Inherit font color from footer */
+	font-family: Junge;
+	font-size: 20px;
+	margin-right: 10rem;
+}
+
+.info li {
+	 width: 12rem;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+.foot a:hover {
+	color: #808080; /* Change to your desired hover color */
+}
+
+.follow {
+	color: inherit; /* Inherit font color from footer */
+	font-family: Junge;
+	font-size: 20px;
+	margin-right: 10rem;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo img{
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+}
+
+.add {
+	padding: 7px 0 20px 50px;
+	font-family: Junge;
+	font-size: 16px;
+}
+
+.add p {
+	margin-bottom: 7px;
+}
